@@ -125,7 +125,7 @@ env:
   TA_PASSWORD: "changeme"
   TA_USERNAME: "admin"
   ES_URL: "http://tubearchivist-elasticsearch:9200"
-  REDIS_HOST: "tubearchivist-redis-master"
+  REDIS_CON: "redis://tube-archivist-redis-master:6379"
   ELASTIC_PASSWORD: "changeme"
 
 # -- Configure persistence for the chart here.
