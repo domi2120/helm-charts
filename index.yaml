@@ -34,6 +34,26 @@ entries:
   tubearchivist:
   - apiVersion: v2
     appVersion: v0.3.4
+    created: "2025-04-09T19:59:33.364584549Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.7.3
+    - name: elasticsearch
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.5.12
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: b34137d8459c0abf81e889384e43ec7ed419b5e3d8c78530a55bc727d4aa5198
+    name: tubearchivist
+    type: application
+    urls:
+    - https://github.com/domi2120/helm-charts/releases/download/tubearchivist-0.8.7/tubearchivist-0.8.7.tgz
+    version: 0.8.7
+  - apiVersion: v2
+    appVersion: v0.3.4
     created: "2025-04-09T19:55:44.415898864Z"
     dependencies:
     - name: redis
@@ -52,4 +72,4 @@ entries:
     urls:
     - https://github.com/domi2120/helm-charts/releases/download/tubearchivist-0.8.6/tubearchivist-0.8.6.tgz
     version: 0.8.6
-generated: "2025-04-09T19:55:44.415910455Z"
+generated: "2025-04-09T19:59:33.364596932Z"
