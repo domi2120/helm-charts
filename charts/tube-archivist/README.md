@@ -43,3 +43,6 @@ env:
   - name: "ELASTIC_PASSWORD"
     value: "changeme"
 ```
+
+### Notes
+* This chart also bundles the [bgutil-ytdlp-pot-provider](https://github.com/Brainicism/bgutil-ytdlp-pot-provider), which can be integrated with tube-archivist according to the official [docs](https://docs.tubearchivist.com/settings/application/#po-token-provider-url). The Url to enter is http://<release-name>-pot-provider:4416
