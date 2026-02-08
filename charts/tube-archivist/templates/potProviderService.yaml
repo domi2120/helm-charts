@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "tube-archivist.fullname" . }}-pot-provider
+  labels:
+    {{- include "tube-archivist.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.potProvider.service.type }}
+  ports:
+    - port: {{ .Values.potProvider.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "tube-archivist.selectorLabels" . | nindent 4 }}
+    app.kubernetes.io/component: pot-provider
