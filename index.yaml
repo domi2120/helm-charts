@@ -31,6 +31,21 @@ entries:
     urls:
     - https://github.com/domi2120/helm-charts/releases/download/test-0.1.4/test-0.1.4.tgz
     version: 0.1.4
+  tube-archivist:
+  - apiVersion: v2
+    appVersion: 0.59.0
+    created: "2026-02-08T18:33:08.594246773Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.7.3
+    description: A Helm chart for Kubernetes
+    digest: cc8828fdd51d45d56b219fd3a53943781f299fde344a2d83057a4a668c80c198
+    name: tube-archivist
+    type: application
+    urls:
+    - https://github.com/domi2120/helm-charts/releases/download/tube-archivist-0.1.0/tube-archivist-0.1.0.tgz
+    version: 0.1.0
   tubearchivist:
   - apiVersion: v2
     appVersion: v0.3.4
@@ -72,4 +87,4 @@ entries:
     urls:
     - https://github.com/domi2120/helm-charts/releases/download/tubearchivist-0.8.6/tubearchivist-0.8.6.tgz
     version: 0.8.6
-generated: "2025-04-09T19:59:33.364596932Z"
+generated: "2026-02-08T18:33:08.594258054Z"
